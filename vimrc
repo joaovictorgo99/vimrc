@@ -15,6 +15,7 @@ set backspace=eol,start,indent
 set whichwrap+=<,>,h,l,[,]
 set tabstop=4
 set shiftwidth=4
+set expandtab
 set autoindent
 set list lcs=tab:..
 set number
@@ -35,8 +36,8 @@ set splitright
 set splitbelow
 "theme
 set background=dark
-let g:gruvbox_contrast_dark='hard'
-colorscheme gruvbox
+packadd! dracula
+colorscheme dracula
 "statusline
 set statusline=
 set statusline+=\ [%n]\ %F\ %m%r%h%w
