@@ -17,7 +17,6 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 set autoindent
-set list lcs=tab:..
 set number
 set nowrap
 set scrolloff=8
